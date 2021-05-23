@@ -1,20 +1,18 @@
-:root
-{
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+:root {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 main {
-    flex: 1 0 auto;
-  }
+  flex: 1 0 auto;
+}
 footer {
-    flex-shrink: 0;
-  }
-.desc
-  {
-    font-size: 16px !important;
-  }
+  flex-shrink: 0;
+}
+.desc {
+  font-size: 16px !important;
+}
