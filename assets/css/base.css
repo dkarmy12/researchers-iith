@@ -16,5 +16,5 @@ footer {
   }
 .desc
   {
-    font-size: calc(16px + (24 - 16) * ((100vw - 400px) / (1600 - 400))) !important;
+    font-size: 16px !important;
   }
