@@ -2,12 +2,17 @@
 layout: base
 title: Researchers of IIT Hyderabad
 ---
-<div class="parallax-container">
-      <div class="parallax"><img src="/assets/images/AcadBlock2.jpg"></div>
-</div>
 <div class = "container">
+  <div class="section">
+  <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="/assets/images/1.png"></a>
+    <a class="carousel-item" href="#two!"><img src="/assets/images/2.png"></a>
+    <a class="carousel-item" href="#three!"><img src="/assets/images/3.png"></a>
+    <a class="carousel-item" href="#four!"><img src="/assets/images/4.png"></a>
+  </div>
+  </div>
       {% for paragraph in site.data.home %}
-      <p class="flow-text">
+      <p class="desc">
         {{ paragraph.text }}
       </p>
       {% endfor %}

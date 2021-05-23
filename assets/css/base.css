@@ -1,3 +1,8 @@
+:root
+{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
 body {
     display: flex;
     min-height: 100vh;
@@ -8,4 +13,8 @@ main {
   }
 footer {
     flex-shrink: 0;
+  }
+.desc
+  {
+    font-size: calc(16px + (24 - 16) * ((100vw - 400px) / (1600 - 400))) !important;
   }
